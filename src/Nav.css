@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: flex; /* Aligns all contents to the right */
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.name {
+    color: white;
+    font-size: 24px;
+    margin-right: 900px; /* Optional: Adjust spacing between .name and .container */
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 5px; /* Minimal gap between the links */
+}
+
+.content {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.content:hover {
+    background-color: #555;
+    border-radius: 50px;
+}
