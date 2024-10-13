@@ -9,6 +9,10 @@ function Navbar(){
             <a href="" className='content'>Resume</a>
             <a href="" className='content'>Contacts</a>
             </div>
+            <div>
+               <button>SignUp</button>
+                <button>SignIn</button>
+            </div>
         
         </nav>
     )
