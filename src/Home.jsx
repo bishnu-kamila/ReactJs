@@ -1,7 +1,7 @@
 import './Home.css'
 function Home(){
 return(
-    
+    <h1>This is Home Page</h1>
         <div class="image-container">
                 <img src="\src\Image\ItsMe-removebg-preview.png" alt="" />
   
