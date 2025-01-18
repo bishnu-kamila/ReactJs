@@ -10,3 +10,13 @@ export default {
   plugins: [],
 }
 
+
+module.exports = {
+  theme: {
+    extend: {
+      screens: {
+        'xs': '480px',  // Adding extra small screen size
+      },
+    },
+  },
+};
